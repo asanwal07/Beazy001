@@ -1,0 +1,110 @@
+.Testimo-Container {
+      border: 2px solid red;
+}
+
+.Testimo-Heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.Testimo-heading-box h1 {
+      font-family: 'Cabin', sans-serif;
+      margin: 0px;
+      font-size: 40px;
+      color: rgb(56, 56, 61);
+      cursor: context-menu;
+}
+
+.Testimo-slogan-box h4 {
+      cursor: pointer;
+      font-size: 20px;
+      color: rgb(136, 136, 223);
+}
+
+/* -->for content inside */
+.Testimo-Main-Container {
+      margin-top: 20px;
+}
+
+
+.subContent {
+      display: flex;
+
+}
+
+.Content-holder {
+      border: 1px solid rgb(232, 232, 232);
+      box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px 2px;
+      width: 500px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      /* padding: 2px; */
+      padding: 0px 20px;
+      margin: 2px 8px;
+      box-sizing: border-box;
+      background-color: rgb(236, 245, 251);
+      cursor: pointer;
+}
+
+.Content-holder:hover {
+      box-shadow: rgba(240, 174, 174, 0.8) 0px 4px 12px 2px;
+}
+
+.Content-img {
+      /* margin-top: 5px; */
+
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin-top: 15px;
+      /* align-items: center; */
+}
+
+.Content-img img {
+      margin-top: 5px;
+      margin-right: 3px;
+      max-width: 100%;
+      /* object-fit: fill; */
+      /* border: 2px solid rgb(150, 150, 187); */
+      /* border-radius: 50px; */
+      /* align-items: center; */
+
+}
+
+.img-name-holder {
+      /* border: 2px solid red; */
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+
+}
+
+
+/* padding: 5px 0; */
+.name-descrip {
+      margin-left: 22px;
+      margin-top: 20px;
+}
+
+.name-descrip h5,
+p {
+      margin: 0px;
+      padding: 0px;
+}
+
+.name-descrip h5 {
+      font-size: 20px;
+      font-weight: 1000;
+}
+
+.name-descrip p {
+      font-weight: 440;
+      font-size: 15px;
+      padding-top: px;
+      font-family: Poppins, sans-serif;
+}
